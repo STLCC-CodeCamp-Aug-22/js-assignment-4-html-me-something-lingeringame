@@ -1,1 +1,42 @@
 /* Write your CSS here! */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;400&display=swap');
+
+* {
+    font-family: 'Roboto Mono', monospace;
+    background-color: rgb(0,0,0);
+    text-align: center;
+}
+
+body {
+    display: block;
+    margin: 8px;
+    padding: 10px;
+}
+p {
+    margin-left:26% ;
+    margin-right:26% ;
+    font-size: 1.2rem;
+}
+.otherP, h2, figcaption, footer {
+    color: chartreuse;
+}
+
+#mainHeading {
+    color:red;
+}
+
+.funParagraph {
+    color: green;
+}
+
+img {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    transition-duration: 100ms;
+    transition-property: all;
+    transition-timing-function: linear;
+
+}
+img:hover {
+    transform: scale(1.05);
+}
